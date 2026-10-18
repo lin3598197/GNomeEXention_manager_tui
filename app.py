@@ -66,7 +66,10 @@ class ExtensionDetails(Static):
         self.update(content)
 
 #-------Main Code---------------
-class gnex_cli(App):
+class GNOMEExtensionManager(App):
+    TITLE = "GNomeEXention_manager_tui"
+    SUB_TITLE = "GNOME 擴充套件管理器"
+
     CSS = """
     #left-pane {
         width: 40%;
@@ -222,5 +225,5 @@ class gnex_cli(App):
             self.notify(f"Found {len(results)} Extensions!!", title = "search complete")
 
 if __name__ == "__main__":
-    app = gnex_cli()
+    app = GNOMEExtensionManager()
     app.run()
