@@ -77,3 +77,7 @@ chmod +x gnex_cli-x86_64.AppImage
 ## AI 使用說明
 
 本專案使用 AI 協助修改程式、除錯、翻譯與撰寫文件。
+
+## 授權
+
+本專案採用 [MIT License](LICENSE)，著作權為 © 2026 lin3598197。
